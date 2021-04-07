@@ -33,6 +33,6 @@ export const useAuth = () => {
     setReady(true);
   }, [login])
 
-  return { loginId, logout, token, userId, ready }
+  return { login, logout, token, userId, ready }
 
 }
